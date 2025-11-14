@@ -1,0 +1,16 @@
+{
+  "tests": [
+    {
+      "name": "Update realtime messages",
+      "method": "GET",
+      "path": "/?action=update_realtime",
+      "expectedStatus": 200
+    },
+    {
+      "name": "Send daily notifications",
+      "method": "GET",
+      "path": "/?action=daily_notifications",
+      "expectedStatus": 200
+    }
+  ]
+}
